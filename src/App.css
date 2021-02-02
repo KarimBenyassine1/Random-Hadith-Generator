@@ -3,3 +3,21 @@
     align-items: center;
     flex-direction: column;
 }
+
+.btn{
+    padding:0.35em 1.2em;
+    border:0.1em solid #006400;
+    border-radius:0.22em;
+    box-sizing: border-box;
+    text-decoration:none;
+    background-color: #ccffcc;
+    color: #006400;
+    width: 160px;
+    outline: none;
+    font-size: 24px;
+    transition: all 0.2s;
+}
+.btn:hover{
+    background-color:#006400;
+    color: white
+}
